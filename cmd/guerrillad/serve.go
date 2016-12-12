@@ -10,10 +10,10 @@ import (
 
 	"fmt"
 
-	guerrilla "github.com/flashmob/go-guerrilla"
-	"github.com/flashmob/go-guerrilla/backends"
-	"github.com/flashmob/go-guerrilla/config"
-	"github.com/flashmob/go-guerrilla/server"
+	guerrilla "github.com/hatchitup/go-guerrilla"
+	"github.com/hatchitup/go-guerrilla/backends"
+	"github.com/hatchitup/go-guerrilla/config"
+	"github.com/hatchitup/go-guerrilla/server"
 )
 
 var (

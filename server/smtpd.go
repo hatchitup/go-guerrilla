@@ -11,8 +11,8 @@ import (
 
 	log "github.com/Sirupsen/logrus"
 
-	guerrilla "github.com/flashmob/go-guerrilla"
-	"github.com/flashmob/go-guerrilla/util"
+	guerrilla "github.com/hatchitup/go-guerrilla"
+	"github.com/hatchitup/go-guerrilla/util"
 )
 
 type SmtpdServer struct {

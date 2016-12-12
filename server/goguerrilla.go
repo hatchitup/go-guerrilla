@@ -5,7 +5,7 @@ Version: 1.5
 Author: Flashmob, GuerrillaMail.com
 Contact: flashmob@gmail.com
 License: MIT
-Repository: https://github.com/flashmob/Go-Guerrilla-SMTPd
+Repository: https://github.com/hatchitup/Go-Guerrilla-SMTPd
 Site: http://www.guerrillamail.com/
 
 See README for more details
@@ -24,7 +24,7 @@ import (
 
 	log "github.com/Sirupsen/logrus"
 
-	guerrilla "github.com/flashmob/go-guerrilla"
+	guerrilla "github.com/hatchitup/go-guerrilla"
 )
 
 func RunServer(mainConfig guerrilla.Config, sConfig guerrilla.ServerConfig, backend guerrilla.Backend) (err error) {

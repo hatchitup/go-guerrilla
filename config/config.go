@@ -7,7 +7,7 @@ import (
 	"io/ioutil"
 	"time"
 
-	guerrilla "github.com/flashmob/go-guerrilla"
+	guerrilla "github.com/hatchitup/go-guerrilla"
 )
 
 // ReadConfig which should be called at startup, or when a SIG_HUP is caught

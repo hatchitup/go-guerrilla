@@ -3,7 +3,7 @@ package backends
 import (
 	"fmt"
 
-	guerrilla "github.com/flashmob/go-guerrilla"
+	guerrilla "github.com/hatchitup/go-guerrilla"
 )
 
 var backends = map[string]guerrilla.Backend{}

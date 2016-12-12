@@ -15,7 +15,7 @@ import (
 	"github.com/sloonz/go-qprintable"
 	"gopkg.in/iconv.v1"
 
-	guerrilla "github.com/flashmob/go-guerrilla"
+	guerrilla "github.com/hatchitup/go-guerrilla"
 )
 
 var extractEmailRegex, _ = regexp.Compile(`<(.+?)@(.+?)>`) // go home regex, you're drunk!
