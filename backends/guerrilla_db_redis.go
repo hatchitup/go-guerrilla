@@ -200,6 +200,9 @@ func (g *GuerrillaDBAndRedisBackend) saveMail() {
 		addHead += "	" + time.Now().Format(time.RFC1123Z) + "\r\n"
 		// compress to save space
 		payload.client.Data = util.Compress(&addHead, &payload.client.Data)
+
+		log.Debugf(string(payload.client.Data))
+
 		body = "gzencode"
 		redisErr = redisClient.redisConnection(g.config.RedisInterface)
 		if redisErr == nil {
