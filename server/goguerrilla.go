@@ -19,6 +19,7 @@ import (
 	"crypto/tls"
 	"fmt"
 	"net"
+	"os"
 	"runtime"
 	"time"
 
@@ -26,6 +27,8 @@ import (
 
 	guerrilla "github.com/hatchitup/go-guerrilla"
 )
+
+var Directory, _ = os.Getwd()
 
 func RunServer(mainConfig guerrilla.Config, sConfig guerrilla.ServerConfig, backend guerrilla.Backend) (err error) {
 	server := SmtpdServer{
@@ -36,7 +39,7 @@ func RunServer(mainConfig guerrilla.Config, sConfig guerrilla.ServerConfig, back
 
 	// configure ssl
 	if sConfig.TLSAlwaysOn || sConfig.StartTLS {
-		cert, err := tls.LoadX509KeyPair(sConfig.PublicKeyFile, sConfig.PrivateKeyFile)
+		cert, err := tls.LoadX509KeyPair(Directory+sConfig.PublicKeyFile, Directory+sConfig.PrivateKeyFile)
 		if err != nil {
 			return fmt.Errorf("error while loading the certificate: %s", err)
 		}
