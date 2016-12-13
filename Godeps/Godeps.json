@@ -2,5 +2,142 @@
 	"ImportPath": "github.com/hatchitup/go-guerrilla",
 	"GoVersion": "go1.7",
 	"GodepVersion": "v75",
-	"Deps": []
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/Sirupsen/logrus",
+			"Comment": "v0.11.0-10-ga437dfd",
+			"Rev": "a437dfd2463eaedbec3dfe443e477d3b0a810b3f"
+		},
+		{
+			"ImportPath": "github.com/garyburd/redigo/internal",
+			"Comment": "v1.0.0-12-g0708def",
+			"Rev": "0708def8b0cf3a05acdf44a7f28b864c2958921d"
+		},
+		{
+			"ImportPath": "github.com/garyburd/redigo/redis",
+			"Comment": "v1.0.0-12-g0708def",
+			"Rev": "0708def8b0cf3a05acdf44a7f28b864c2958921d"
+		},
+		{
+			"ImportPath": "github.com/hatchitup/go-email/email",
+			"Rev": "388713805b1e28295565f252ab14b53e1267b0bc"
+		},
+		{
+			"ImportPath": "github.com/inconshreveable/mousetrap",
+			"Rev": "76626ae9c91c4f2a10f34cad8ce83ea42c93bb75"
+		},
+		{
+			"ImportPath": "github.com/jaytaylor/html2text",
+			"Rev": "4b9124c9b0a2279e2092c4a9aaf1c83bbd2dcffc"
+		},
+		{
+			"ImportPath": "github.com/jhillyerd/go.enmime",
+			"Comment": "old-api-15-g1b38e76",
+			"Rev": "1b38e76723aa41be23ca88adbb21df1972c10b7f"
+		},
+		{
+			"ImportPath": "github.com/laurent22/ical-go/ical",
+			"Rev": "191fa9832be0d7da61588843cd36ee5a71fed2f6"
+		},
+		{
+			"ImportPath": "github.com/sloonz/go-qprintable",
+			"Rev": "775b3a4592d5bfc47b0ba398ec0d4dba018e5926"
+		},
+		{
+			"ImportPath": "github.com/spf13/cobra",
+			"Rev": "9495bc009a56819bdb0ddbc1a373e29c140bc674"
+		},
+		{
+			"ImportPath": "github.com/spf13/pflag",
+			"Rev": "5ccb023bc27df288a957c5e994cd44fd19619465"
+		},
+		{
+			"ImportPath": "github.com/ziutek/mymysql/autorc",
+			"Comment": "v1.5.4-19-g501176f",
+			"Rev": "501176fc99be4b4fb0fd01ae8d6af5d8bb408e44"
+		},
+		{
+			"ImportPath": "github.com/ziutek/mymysql/godrv",
+			"Comment": "v1.5.4-19-g501176f",
+			"Rev": "501176fc99be4b4fb0fd01ae8d6af5d8bb408e44"
+		},
+		{
+			"ImportPath": "github.com/ziutek/mymysql/mysql",
+			"Comment": "v1.5.4-19-g501176f",
+			"Rev": "501176fc99be4b4fb0fd01ae8d6af5d8bb408e44"
+		},
+		{
+			"ImportPath": "github.com/ziutek/mymysql/native",
+			"Comment": "v1.5.4-19-g501176f",
+			"Rev": "501176fc99be4b4fb0fd01ae8d6af5d8bb408e44"
+		},
+		{
+			"ImportPath": "golang.org/x/net/html",
+			"Rev": "4971afdc2f162e82d185353533d3cf16188a9f4e"
+		},
+		{
+			"ImportPath": "golang.org/x/net/html/atom",
+			"Rev": "4971afdc2f162e82d185353533d3cf16188a9f4e"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/unix",
+			"Rev": "30237cf4eefd639b184d1f2cb77a581ea0be8947"
+		},
+		{
+			"ImportPath": "golang.org/x/text/encoding",
+			"Rev": "47a200a05c8b3fd1b698571caecbb68beb2611ec"
+		},
+		{
+			"ImportPath": "golang.org/x/text/encoding/charmap",
+			"Rev": "47a200a05c8b3fd1b698571caecbb68beb2611ec"
+		},
+		{
+			"ImportPath": "golang.org/x/text/encoding/internal",
+			"Rev": "47a200a05c8b3fd1b698571caecbb68beb2611ec"
+		},
+		{
+			"ImportPath": "golang.org/x/text/encoding/internal/identifier",
+			"Rev": "47a200a05c8b3fd1b698571caecbb68beb2611ec"
+		},
+		{
+			"ImportPath": "golang.org/x/text/encoding/japanese",
+			"Rev": "47a200a05c8b3fd1b698571caecbb68beb2611ec"
+		},
+		{
+			"ImportPath": "golang.org/x/text/encoding/korean",
+			"Rev": "47a200a05c8b3fd1b698571caecbb68beb2611ec"
+		},
+		{
+			"ImportPath": "golang.org/x/text/encoding/simplifiedchinese",
+			"Rev": "47a200a05c8b3fd1b698571caecbb68beb2611ec"
+		},
+		{
+			"ImportPath": "golang.org/x/text/encoding/traditionalchinese",
+			"Rev": "47a200a05c8b3fd1b698571caecbb68beb2611ec"
+		},
+		{
+			"ImportPath": "golang.org/x/text/encoding/unicode",
+			"Rev": "47a200a05c8b3fd1b698571caecbb68beb2611ec"
+		},
+		{
+			"ImportPath": "golang.org/x/text/internal/utf8internal",
+			"Rev": "47a200a05c8b3fd1b698571caecbb68beb2611ec"
+		},
+		{
+			"ImportPath": "golang.org/x/text/runes",
+			"Rev": "47a200a05c8b3fd1b698571caecbb68beb2611ec"
+		},
+		{
+			"ImportPath": "golang.org/x/text/transform",
+			"Rev": "47a200a05c8b3fd1b698571caecbb68beb2611ec"
+		},
+		{
+			"ImportPath": "gopkg.in/iconv.v1",
+			"Comment": "v1.1.1",
+			"Rev": "16a760eb7e186ae0e3aedda00d4a1daa4d0701d8"
+		}
+	]
 }
