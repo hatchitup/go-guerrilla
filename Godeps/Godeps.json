@@ -1,0 +1,6 @@
+{
+	"ImportPath": "github.com/hatchitup/go-guerrilla",
+	"GoVersion": "go1.7",
+	"GodepVersion": "v75",
+	"Deps": []
+}

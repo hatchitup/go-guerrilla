@@ -75,7 +75,7 @@ func (b *DummyBackend) Process(client *guerrilla.Client, from *guerrilla.EmailPa
 		//log.Infof("Body: %v\n", msg.Body)
 
 		for _, part := range msg.PartsContentTypePrefix("text/html") {
-			log.Infof("Part: %v\n", part)
+			log.Infof("Part: %v\n", string(part.Body))
 		}
 		for _, part := range msg.PartsContentTypePrefix("text/calendar") {
 			cal, _ := ical.ParseCalendar(string(part.Body))
